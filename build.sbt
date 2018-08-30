@@ -91,6 +91,7 @@ lazy val elasticsearch = alpakkaProject(
 // The name 'file' is taken by `sbt.file`, hence 'files'
 lazy val files = alpakkaProject("file", "file", Dependencies.File)
 
+lazy val firestore = alpakkaProject("firestore", "firestore", Dependencies.Firestore)
 lazy val ftp = alpakkaProject(
   "ftp",
   "ftp",
